@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* banner start  */
+.banner {
+    background-image: url(../banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+}
+
+.banner-description {
+    margin-right: 150px;
+}
+
+.banner-description h1 {
+    margin-bottom: 24px;
+    line-height: 76px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.banner-description p {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 32px;
+}

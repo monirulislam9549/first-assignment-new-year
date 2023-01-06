@@ -39,4 +39,29 @@
 
 button {
     margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 26px;
+    border: none;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    margin: 0 250px;
+    gap: 80px;
+}
+
+.container-1 h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 10px;
 }

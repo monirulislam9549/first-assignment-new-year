@@ -85,3 +85,29 @@ ul li i {
     font-weight: 400;
     font-size: 16px;
 }
+
+.my-plans {
+    margin: 130px 0 50px 0;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 230px 130px 230px;
+    gap: 80px;
+    text-align: center;
+}
+
+.plans h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 24px 0 15px 0;
+
+}
+
+.plans p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}

@@ -38,6 +38,8 @@
     color: #FFFFFF;
 }
 
+/* banner section end  */
+
 button {
     margin-top: 32px;
     font-weight: 600;
@@ -47,6 +49,14 @@ button {
     border-radius: 5px;
     padding: 20px 26px;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.527);
+    transition: all 0.5s ease-in;
+
+
 }
 
 .container-1 {

@@ -111,3 +111,20 @@ ul li i {
     font-size: 25px;
     color: #737272;
 }
+
+
+.banner-2 {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 0 230px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.banner-2 h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}

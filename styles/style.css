@@ -40,9 +40,7 @@
 
 /* banner section end  */
 
-
 /* extra section  */
-
 .about-flatform {
     text-align: center;
 }
@@ -58,12 +56,8 @@
 
 .cards {
     display: flex;
-    /* justify-content: center; */
     margin: 50px 180px 100px 180px;
     gap: 80px;
-
-
-
 }
 
 .card {
@@ -86,7 +80,6 @@
     font-size: 20px;
     margin-left: 15px;
     margin-bottom: 10px;
-
 }
 
 .card p {
@@ -109,8 +102,6 @@ button {
 button:hover {
     box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.527);
     transition: all 0.5s ease-in;
-
-
 }
 
 .container-1 {
@@ -141,7 +132,6 @@ ul li {
 
 ul li i {
     margin-right: 10px;
-
 }
 
 .hello {
@@ -170,7 +160,6 @@ ul li i {
     font-weight: 700;
     font-size: 30px;
     margin: 24px 0 15px 0;
-
 }
 
 .plans p {
@@ -178,7 +167,6 @@ ul li i {
     font-size: 25px;
     color: #737272;
 }
-
 
 .banner-2 {
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
@@ -203,8 +191,6 @@ footer {
     justify-content: space-evenly;
     padding: 100px;
     gap: 300px;
-
-
 }
 
 footer h3 {

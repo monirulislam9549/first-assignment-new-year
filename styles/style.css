@@ -208,6 +208,7 @@ footer p {
 footer a img {
     margin-right: 17px;
     border: none;
+    text-decoration: none;
 }
 
 .form h4 {

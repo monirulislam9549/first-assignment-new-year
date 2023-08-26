@@ -193,7 +193,7 @@
             <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered
                 alteration
                 in some <br> form, by injected humour, or randomised words</p>
-            <p>Email : info@gmail.com</p>
+            <p id="email">Email : info@gmail.com</p>
             <p>Phone : 01500 00 00 00</p>
             <a href="https://web.facebook.com/"><img src="icons/fb.png" alt=""> </i> </a>
             <a href="https://web.facebook.com/"><img src="icons/twitter.png" alt=""> </i> </a>
@@ -206,6 +206,7 @@
         </div>
     </footer>
         <!-- Add the following script to clear the data layer and push the view_item event -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
             // Clear the data layer
             window.dataLayer = window.dataLayer || [];
@@ -220,6 +221,7 @@
                             item_name: 'Example Item',   // Replace with your item name
                             item_category: 'Category',   // Replace with your item category
                             value: 50   // Replace with the desired value
+                            'email': $('#email').text().replace('Email : ', '')
                         }
                     ]
                 }

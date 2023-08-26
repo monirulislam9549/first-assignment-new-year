@@ -205,28 +205,14 @@
             <button style="background: #005FAC; color: white;">Subscribe</button>
         </div>
     </footer>
-        <!-- Add the following script to clear the data layer and push the view_item event -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-            // Clear the data layer
-            window.dataLayer = window.dataLayer || [];
-    
-            // Push the view_item event with relevant parameters
-            window.dataLayer.push({
-                event: 'view_item',
-                ecommerce: {
-                    items: [
-                        {
-                            item_id: 'item123',   // Replace with your item ID
-                            item_name: 'Example Item',   // Replace with your item name
-                            item_category: 'Category',   // Replace with your item category
-                            value: 50   // Replace with the desired value
-                            'email': $('#email').text().replace('Email : ', '')
-                        }
-                    ]
-                }
-            });
-        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'email': $('#email').text().replace('Email : ', '')
+        });
+    </script>
+
 </body>
 
 </html>

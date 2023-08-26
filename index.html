@@ -204,14 +204,19 @@
             <input type="email" name="Email" placeholder="Enter Your Email"> <br>
             <button style="background: #005FAC; color: white;">Subscribe</button>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </footer><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
-            'email': $('#email').text().replace('Email : ', '')
+            'event': 'view_item',
+            'ecommerce': {
+                'items': [{
+                    'email': $('#email').text().replace('Email : ', '')
+                }]
+            }
         });
     </script>
+    
 
 </body>
 

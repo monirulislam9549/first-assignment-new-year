@@ -4,7 +4,7 @@
  event : "view_item",
  ecommerce: {
  items: [{
- "price" : "11",
+ price : "11",
 
  }]
  }
